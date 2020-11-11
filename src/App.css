@@ -56,10 +56,10 @@ nav {
 .navbar-collapse {
   text-align: center;
 }
-.navbar li a {
+.navbar  a {
   color: #fff !important;
 }
-.navbar li a:hover, .navbar li a.active {
+.navbar a:hover, .navbar a.active {
   color: var(--primarycolor) !important;
   background-color: #fff !important;
 }

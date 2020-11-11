@@ -1,34 +1,13 @@
 import React from 'react'
 import Carousel from 'react-bootstrap/Carousel' 
 
+import NavBar from './Navbar'
+
 
 function Home () {
     return (
         <div>
-            <nav className="navbar navbar-expand-lg navbar-light fixed-top">
-                <div></div>
-                <div className="container">
-                    <div className="navbar-header">
-                        <button type="button" className="navbar-toggler" data-toggle="collapse" data-target="#myNavbar" aria-controls="myNavbar">
-                            <span className="navbar-toggler-icon"></span>
-                        </button>
-                    </div>
-                    <div className="collapse navbar-collapse" id="myNavbar">
-                        <ul className="navbar-nav">
-                            <li><a href="#about" className="nav-item nav-link active">Moi</a></li>
-                            <li><a href="#skills" className="nav-item nav-link">Compétences</a></li>
-                            <li><a href="#education" className="nav-item nav-link">Education</a></li>
-                            <li><a href="#projects" className="nav-item nav-link">Mes projets</a></li>
-                            <li><a href="#experience" className="nav-item nav-link">Experience Professitionelle</a></li>
-                            <li><a href="#quote" className="nav-item nav-link">Quote</a></li>
-
-                        </ul>
-                    </div>
-
-                </div>
-                        
-                        
-            </nav>
+            <NavBar />
             
             <section id='about' className="container-fluid">
                 <div className="col-xs-8 col-lg-4 profile-picture">
