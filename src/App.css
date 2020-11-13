@@ -100,7 +100,7 @@ ul,ol {
   height: 80px;
   /* background-color: #fff; */
   text-align: center;
-  line-height: 80px;
+  line-height: 75px;
   font-size: 50px;
   margin: 0 10px;
   display: inline-block;
@@ -136,8 +136,20 @@ ul,ol {
 #about .heading .github:hover  {
   background: #171515;
 }
+#about .heading .linkedin {
+  font-size: 45px;
+}
 #about .heading .linkedin:hover  {
   background: #0077b5;
+}
+#about .heading .download {
+  font-size: 40px;
+  text-decoration: none;
+  font-weight: bold;
+}
+#about .heading .download:hover  {
+  background: #203464;
+  text-decoration: none;
 }
 
 
@@ -241,6 +253,7 @@ ul,ol {
   filter: grayscale(30%);
   -webkit-filter: grayscale(30%);
 }
+
 .project-block p {
     padding: 15px;
 }

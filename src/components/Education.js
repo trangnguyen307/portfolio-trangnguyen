@@ -16,7 +16,7 @@ class Education extends React.Component {
                                 <img src="images/graduate.svg" />
                                 <div className="title">
                                     <h3>Ironhack</h3>
-                                    <h4>Titre RNCP niveau 6 (BAC +3/+4)-Web développement Fullstack</h4>
+                                    <h4>Titre RNCP niveau 6 (BAC +3/+4) - Développement Web Full-Stack</h4>
                                 </div>
                                 
                                 <div className="red-divider"></div>
@@ -28,7 +28,7 @@ class Education extends React.Component {
                     </div>
                         <div className="col-lg-4">
                             <div className="education-block">
-                                <h5>1/2020-6/2020</h5>
+                                <h5>2019-2020</h5>
                                 <img src="images/graduate.svg" />
                                 <div className="title">
                                     <h3>Université Paris-Est Créteil (UPEC)</h3>
