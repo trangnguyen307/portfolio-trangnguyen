@@ -21,13 +21,13 @@ img {
   width: 100px;
   height: 2px;
   background: var(--primarycolor);
-  margin: 20px auto;
+  margin: 30px auto;
 }
 .white-divider {
   width: 100px;
   height: 2px;
   background: white;
-  margin: 20px auto;
+  margin: 30px auto;
 }
 section {
   padding: 45px 0 80px 0;
@@ -41,27 +41,32 @@ ul,ol {
 }
 
 /*MENU */
-nav {
+#navbar {
   background-color: var(--primarycolor);
   font-size: 13px;
   letter-spacing: 4px;
   text-transform: uppercase;
   font-weight: bold;
   border-bottom: 1px solid #fff;
+  flex-direction: column;
+  /* margin: 0px auto; */
 }
 .navbar-nav {
-  margin: auto;
-  
+  margin: auto
 }
 .navbar-collapse {
   text-align: center;
+  
 }
 .navbar  a {
   color: #fff !important;
+  margin: 5px 10px;
+  padding: 5px;
 }
-.navbar a:hover, .navbar a.active {
+.navbar a:hover, .navbar a.is-active {
   color: var(--primarycolor) !important;
   background-color: #fff !important;
+  text-decoration: none;
 }
 .navbar-toggler {
   border: none;
