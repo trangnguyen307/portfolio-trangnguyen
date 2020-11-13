@@ -3,7 +3,6 @@ import Carousel from 'react-bootstrap/Carousel'
 
 import NavBar from './Navbar'
 
-
 function Home () {
     return (
         <div>
