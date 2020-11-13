@@ -3,10 +3,10 @@ import React from 'react';
 class Education extends React.Component {
     render () {
         return (
-            <section id = "experience">
+            <section>
                 <div className="white-divider"></div>
                 <div className="heading">
-                    <h2>Expérience Professitionelle</h2>
+                    <h2>Expériences Professitionelles</h2>
                 </div>
                 <ul className="timeline">
                     <li>

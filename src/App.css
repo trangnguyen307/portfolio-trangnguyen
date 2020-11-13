@@ -434,12 +434,14 @@ footer {
 
 }
 
-footer a {
+footer button {
+  border: none;
+  background-color: var(--grey);
   font-size: 20px;
   margin: 20px;
   color: var(--primarycolor);
 }
-footer a:hover {
+footer button:hover {
   color: #17cae296;
   text-decoration: none;
 }

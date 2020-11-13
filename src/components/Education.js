@@ -3,7 +3,7 @@ import React from 'react';
 class Education extends React.Component {
     render () {
         return (
-            <section id="education">
+            <section>
                 <div className="container">
                     <div className="white-divider"></div>
                 <div className="heading">

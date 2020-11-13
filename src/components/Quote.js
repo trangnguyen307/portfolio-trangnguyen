@@ -4,7 +4,7 @@ import Carousel from 'react-bootstrap/Carousel';
 class Education extends React.Component {
     render () {
         return (
-            <section id="quote">
+            <section>
             <div className="container">
                 <div className="red-divider"></div>
                 <div className="heading">

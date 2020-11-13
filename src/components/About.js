@@ -3,7 +3,7 @@ import React from 'react';
 class About extends React.Component {
     render () {
         return (
-            <section id='about' className="container-fluid">
+            <section className="container-fluid">
                 <div className="col-xs-12 col-lg-4 profile-picture">
                     <img src='images/avatar.jpeg' className="rounded-circle" />
                 </div>

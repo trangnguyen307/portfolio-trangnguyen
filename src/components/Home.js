@@ -1,6 +1,6 @@
 import React from 'react';
 import ScrollspyNav from "react-scrollspy-nav";
-import { Route, NavLink, HashRouter, Switch } from "react-router-dom";
+import { Route, Link , NavLink, HashRouter, Switch } from "react-router-dom";
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from "react-bootstrap/Nav";
 
@@ -12,6 +12,7 @@ import Experience from './Experience'
 import Quote from './Quote'
 
 function Home () {
+
     return (
         <HashRouter>
             <div>
@@ -30,7 +31,7 @@ function Home () {
                                
                             <Nav>
                                 <NavLink to="#about" is-active="true">Moi</NavLink>
-                                <NavLink to="#skills">Compétence</NavLink>
+                                <NavLink to="#skills">Compétences</NavLink>
                                 <NavLink to="#education">Education</NavLink>
                                 <NavLink to="#projects">Mes Projets</NavLink>
                                 <NavLink to="#experience">Experience</NavLink>
@@ -47,21 +48,24 @@ function Home () {
                 
 
                 <div className="content">
-                    <About />
-                    <Skills />
-                    <Education />
-                    <Projects />
-                    <Experience />
-                    <Quote />
+                    <div id="about"><About /></div>
+                    <div id="skills"><Skills /></div>
+                    <div id="education"><Education /></div>
+                    <div id="projects"><Projects /></div>
+                    <div id="experience"><Experience /></div>
+                    <div id="quote"><Quote /></div>
                 </div>
+                <footer className="text-center">
+                    <button onClick = {() => {
+                        document.body.scrollTop = 0;
+                        document.documentElement.scrollTop = 0;
+                    }}>Haut de page</button>
+                
+                    <h5>© 2020 trangnguyen307</h5>
+                </footer>
             </div>
 
-            <footer className="text-center">
-                <a href='#about'>
-                    <p>Haut de page</p>
-                </a>
-                <h5>© 2020 trangnguyen307</h5>
-            </footer>
+            
         </HashRouter>
           
     )

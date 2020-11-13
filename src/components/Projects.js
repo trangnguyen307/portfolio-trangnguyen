@@ -3,7 +3,7 @@ import React from 'react';
 class Projects extends React.Component {
     render () {
         return (
-            <section id='projects'>
+            <section>
                 <div className='container'>
                     <div className="red-divider"></div>
                     <div className="heading">

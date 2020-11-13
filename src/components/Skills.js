@@ -3,7 +3,7 @@ import React from 'react';
 class Skills extends React.Component {
     render () {
         return (
-            <section id="skills">
+            <section>
                 <div className="red-divider"></div>
                 <div className="heading">
                     <h2>Compétences</h2>
