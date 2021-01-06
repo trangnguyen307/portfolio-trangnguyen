@@ -369,6 +369,11 @@ ul,ol {
 .timeline-heading h4 {
     color: var(--primarycolor);
 }
+
+.list-tasks {
+  list-style:circle;
+  margin-bottom: 16px;
+}
 /*QUOTE*/
 #quote {
   background: #fff;

@@ -11,17 +11,6 @@ class Projects extends React.Component {
                     </div>
                     <div className="row justify-content-center">
                         <div className="col-lg-5 project-block">
-                            <a className="thumbnail" href="https://ohchuyentien.herokuapp.com/" target="blank">
-                                <img src='images/projectOhchuyentien.png' alt='Projet Oh Chuyen tien'/>
-                            </a>
-                            <div>  
-                                <h5>Un site de transfert d'argent entre Vietnam et Pologne</h5> 
-                                <p>
-                                    <span>Stack:</span> ReactJS, MongoDB/Mongoose, HTML/CSS, Bootstrap 4, Git/GitHub, Heroku, VS Code   
-                                </p>    
-                            </div>
-                        </div>
-                        <div className="col-lg-5 project-block">
                             <a className="thumbnail" href="https://plant-sitter.herokuapp.com/" target="blank">
                                 <img src='images/project3.png' alt='Projet 3'/>
                             </a>
